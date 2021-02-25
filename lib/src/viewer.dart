@@ -60,7 +60,7 @@ class PDFViewer extends StatefulWidget {
     Key key,
     @required this.document,
     this.scrollDirection,
-    this.lazyLoad = true,
+    this.lazyLoad = false,
     this.indicatorText = Colors.white,
     this.indicatorBackground = Colors.black54,
     this.showIndicator = true,
