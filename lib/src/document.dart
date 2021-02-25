@@ -13,7 +13,7 @@ class PDFDocument {
   String _filePath;
   int count;
   List<PDFPage> _pages = [];
-  bool _preloaded = false;
+  bool _preloaded = true;
 
   /// Load a PDF File from a given File
   /// [File file], file to be loaded
